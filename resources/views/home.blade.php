@@ -26,12 +26,12 @@
 @foreach($posts as $post)
 <div style="background-color: grey; padding:10px; margin:10px;">
     <h3>{{$post['title']}}</h3>
-    {{$post['body']}}
+{{$post['body']}}
     <p><a href="/edit-post/{{$post->id}}">edit</a></p>
     <form action="/delete-post/{{$post->id}}" method="post">
     @csrf
     @method('DELETE')
-    <BUtton>Delete</BUtton>
+    <buttton>Delete</buttton>
 </form>
 
 

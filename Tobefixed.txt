@@ -1,0 +1,5 @@
+1. show all post to the logged in users
+2. fix usersCoolposts
+3. edit
+4. revise the code
+5. make new brancha and merge/ learn about rollback, pull, push pull request, etc.
